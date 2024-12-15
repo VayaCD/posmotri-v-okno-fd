@@ -114,15 +114,20 @@ ol {
 
 .content__video-card-description-container {
   width: 200px;
-  height: 101px;
 }
 
 .content__list {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
+
+.content__list-item {
+  padding: 3px;
+  margin-bottom: 30px;
+}
+
+.content__list-item:last-child {
+margin-bottom: 0px;
+} 
 
 .search-form__fieldset {
   border: none;
@@ -232,9 +237,6 @@ ol {
   background-color: #545050;
 }
 
-.content__list-item {
-  padding: 3px;
-}
 .content__card-link {
   text-decoration: none;
   color: inherit;
